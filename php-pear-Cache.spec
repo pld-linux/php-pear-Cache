@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Cache
 %define		_pearname	%{_class}
-Summary:	%{_class} - Framework for caching of arbitrary data
-Summary(pl):	%{_class} - Klasa do buforowania danych
+Summary:	%{_pearname} - Framework for caching of arbitrary data
+Summary(pl):	%{_pearname} - Klasa do buforowania danych
 Name:		php-pear-%{_pearname}
 Version:	1.5.2
 Release:	1
