@@ -29,13 +29,11 @@ aplikacjami.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-cd %{_pearname}-%{version}
-
 install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/Container
 
-install %{_class}.php		$RPM_BUILD_ROOT%{php_pear_dir}/
-install *.php			$RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/
-install Container/*.php		$RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/Container
+install %{_pearname}-%{version}/%{_class}.php $RPM_BUILD_ROOT%{php_pear_dir}/
+install %{_pearname}-%{version}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/
+install %{_pearname}-%{version}/Container/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/Container
 
 rm $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/%{_class}.php
 
