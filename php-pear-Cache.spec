@@ -4,8 +4,8 @@
 Summary:	%{_class} - Framework for caching of arbitrary data
 Summary(pl):	%{_class} - Klasa do buforowania danych
 Name:		php-pear-%{_pearname}
-Version:	1.5.1
-Release:	3
+Version:	1.5.2
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
