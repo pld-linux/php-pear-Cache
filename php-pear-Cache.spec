@@ -1,11 +1,12 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Cache
+%define		_status		stable
 %define		_pearname	%{_class}
 Summary:	%{_pearname} - Framework for caching of arbitrary data
 Summary(pl):	%{_pearname} - Klasa do buforowania danych
 Name:		php-pear-%{_pearname}
-Version:	1.5.2
-Release:	2
+Version:	1.5.3
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -20,10 +21,14 @@ With the PEAR Cache you can cache the result of certain function
 calls, as well as the output of a whole script run or share data
 between applications.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 U¿ywaj±c klasy PEAR Cache mo¿na buforowaæ rezultaty wywo³añ funkcji, a
 tak¿e wyniki wyj¶cia ca³ych skryptów oraz danych dzielonych pomiêdzy
 aplikacjami.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
