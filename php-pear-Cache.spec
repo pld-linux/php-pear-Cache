@@ -23,7 +23,7 @@ With the PEAR Cache you can cache the result of certain function
 calls, as well as the output of a whole script run or share data
 between applications.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 U¿ywaj±c klasy PEAR Cache mo¿na buforowaæ rezultaty wywo³añ funkcji, a
