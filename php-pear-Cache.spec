@@ -4,7 +4,7 @@
 %define		_pearname	%{_class}
 
 Summary:	%{_pearname} - Framework for caching of arbitrary data
-Summary(pl.UTF-8):   %{_pearname} - Klasa do buforowania danych
+Summary(pl.UTF-8):	%{_pearname} - Klasa do buforowania danych
 Name:		php-pear-%{_pearname}
 Version:	1.5.4
 Release:	4
