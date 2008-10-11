@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - Framework for caching of arbitrary data
 Summary(pl.UTF-8):	%{_pearname} - Klasa do buforowania danych
 Name:		php-pear-%{_pearname}
-Version:	1.5.4
-Release:	6
+Version:	1.5.5
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	1a7698fcfdf9ab63e56bbbff0c76a13d
+# Source0-md5:	b3d5cd9953ce666884246a1942fe0f1e
 URL:		http://pear.php.net/package/Cache/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
