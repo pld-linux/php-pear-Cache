@@ -7,19 +7,23 @@ Summary:	%{_pearname} - Framework for caching of arbitrary data
 Summary(pl.UTF-8):	%{_pearname} - Klasa do buforowania danych
 Name:		php-pear-%{_pearname}
 Version:	1.5.5
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	b3d5cd9953ce666884246a1942fe0f1e
 URL:		http://pear.php.net/package/Cache/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.7.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear >= 4:1.0-21
-Requires:	php-pear-HTTP_Request
+Requires:	php-pear-PEAR-core >= 1:1.7.0
+Suggests:	php-pear-HTTP_Request
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+# exclude optional dependencies
+%define		_noautoreq	pear(HTTP/Request.*)
 
 %description
 With the PEAR Cache you can cache the result of certain function
