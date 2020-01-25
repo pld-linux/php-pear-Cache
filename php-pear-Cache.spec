@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Cache
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Framework for caching of arbitrary data
 Summary(pl.UTF-8):	%{pearname} - Klasa do buforowania danych
 Name:		php-pear-%{pearname}
